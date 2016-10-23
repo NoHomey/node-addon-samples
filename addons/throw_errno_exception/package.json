@@ -1,0 +1,19 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoHomey/node-addon-samples.git"
+  },
+  "author": {
+    "name": "Ivo Stratev",
+    "email": "ivo.stratev.tues@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoHomey/node-addon-samples/issues"
+  },
+  "homepage": "https://github.com/NoHomey/node-addon-samples#readme",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.4.0"
+  }
+}
