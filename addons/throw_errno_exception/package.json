@@ -1,4 +1,9 @@
 {
+  "main": "test.js",
+  "scripts": {
+    "build": "node-gyp configure build",
+    "start": "node test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NoHomey/node-addon-samples.git"
