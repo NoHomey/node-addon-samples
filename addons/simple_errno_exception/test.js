@@ -1,7 +1,7 @@
-const addon = require('bindings')('addon.node');
+const addon = require('./build/Release/addon');
 
 try {
-    addon(9, 'open', '/dev/addon/node');
+    addon();
 } catch(err) {
     console.log('-----------------------------------------------------');
     console.log(err.errno, err.code, err.syscall, err.path, err.message);
